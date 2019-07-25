@@ -1,0 +1,56 @@
+.container {
+  border: 5px solid;
+  background-color: aliceblue;
+}
+.row {
+  display: block;
+  padding: 15px;
+}
+.element {
+  margin: 20px;
+  padding: 10px;
+  color: black;
+  background-color: beige;
+  border: 2px black solid;
+}
+.logo {
+  background: no-repeat;
+  height: 100px;
+  width: 100px;
+}
+.title {
+  color: darkgoldenrod;
+}
+.element:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}
+.screen {
+  background-color: slategray;
+  width: auto;
+  height: 30px;
+}
+.screen:hover {
+  transform: scale(1.1);
+}
+.expression {
+  color: white;
+}
+.word {
+  background-color: beige;
+  padding: 5px;
+  margin: 5px;
+  width: 50px;
+  height: auto;
+  text-align: center;
+  border: 2px black solid;
+  color: black;
+  cursor: pointer;
+}
+.word:hover {
+  background-color: #ccc;
+}
+.logo:hover {
+  transform: rotate(360deg);
+  transition: all 0.3s ease-in-out 0s;
+}
